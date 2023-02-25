@@ -1,8 +1,38 @@
-# viewMoviesNext
-## *Abstract* <br>
-Fetch movie data from API and show it.<br><br>
-## *Description*<br>
-This web application fetches movie data from the themoviedb.org API using an HTTP request. The response data is then parsed and rendered dynamically on the page. Each movie is displayed as a separate component, and the user can click on any movie component to reveal additional details about the selected movie, such as the synopsis and cast information.  <br><br>
-To achieve this, the application utilizes Next.js, a popular framework for building server-side rendered React applications. The application makes use of server-side rendering to pre-render the movie data and display it as soon as the user visits the page. This results in a faster and more responsive user experience.  <br><br>
-The movie data is fetched using asynchronous JavaScript to prevent the page from blocking while waiting for the response from the API. The data is then processed and transformed into React components, which are then displayed using dynamic client-side rendering.  <br><br>
-To style the application, it utilizes Tailwind CSS, a popular utility-first CSS framework that allows for rapid prototyping and development of responsive web applications.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
